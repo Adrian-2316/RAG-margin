@@ -1,0 +1,42 @@
+# Each question names the section that holds its answer. The eval checks the search puts it in the top k.
+- q: How many days of holiday does a full-time barista get?
+  expect: People Handbook › Holidays
+- q: Can I carry unused holiday into next year?
+  expect: People Handbook › Holidays
+- q: When do I need a doctor's note if I'm sick?
+  expect: People Handbook › Sick leave
+- q: How much is the yearly learning budget?
+  expect: People Handbook › Learning budget
+- q: How many days a week can I work from home?
+  expect: People Handbook › Remote work
+- q: What's the espresso recipe, dose and yield?
+  expect: Barista Handbook › Espresso recipe
+- q: What temperature should oat milk be steamed to?
+  expect: Barista Handbook › Milk
+- q: How much cash goes in the till at opening?
+  expect: Barista Handbook › Opening checklist
+- q: Which days does the roastery roast?
+  expect: Roastery Standard Operating Procedures › Roast schedule
+- q: What happens to a batch that scores below 82 at cupping?
+  expect: Roastery Standard Operating Procedures › Quality control
+- q: What is the minimum order for wholesale customers?
+  expect: Wholesale Terms › Ordering
+- q: Is delivery free for cafés in Navarra?
+  expect: Wholesale Terms › Ordering
+- q: Can a café borrow an espresso machine from us?
+  expect: Wholesale Terms › Equipment loan
+- q: How often should the water filter be changed?
+  expect: Equipment Care › Espresso machines
+- q: What does a weekend technician call-out cost?
+  expect: Equipment Care › When something breaks
+# Paraphrases: little word overlap with the documents. These are where semantic search earns its keep.
+- q: How much paid vacation do I have?
+  expect: People Handbook › Holidays
+- q: Who do I phone if the grinder dies on a Saturday?
+  expect: Equipment Care › When something breaks
+- q: How hot should the brewing water be?
+  expect: Barista Handbook › Espresso recipe
+- q: When are invoices due for café accounts?
+  expect: Wholesale Terms › Payment
+- q: Do I get cheaper coffee as an employee?
+  expect: People Handbook › Staff discount
